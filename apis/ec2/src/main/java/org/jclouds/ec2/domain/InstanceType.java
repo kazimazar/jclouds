@@ -847,7 +847,7 @@ public class InstanceType {
     * <ul>
     *    <li>16 GiB of memory</li>
     *    <li>8 vCPU</li>
-    *    <li>1 x 200 NVMe SSD</li>
+    *    <li>1 x 225 NVMe SSD</li>
     *    <li>Up to 25 Gbps of network bandwidth using Elastic Network Adapter (ENA)-based Enhanced Networking</li>
     * </ul>
     */
@@ -858,7 +858,7 @@ public class InstanceType {
     * <ul>
     *    <li>32 GiB of memory</li>
     *    <li>16 vCPU</li>
-    *    <li>1 x 400 NVMe SSD</li>
+    *    <li>1 x 450 NVMe SSD</li>
     *    <li>Up to 25 Gbps of network bandwidth using Elastic Network Adapter (ENA)-based Enhanced Networking</li>
     * </ul>
     */

@@ -1106,7 +1106,7 @@ public class EC2HardwareBuilder extends HardwareBuilder {
          .processors(ImmutableList.of(new Processor(8.0, 3.0)))
          .volumes(ImmutableList.<Volume>of(
                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
-                 new VolumeBuilder().type(LOCAL).size(200.0f).device("/dev/sdb").bootDevice(false).durable(false).build()))
+                 new VolumeBuilder().type(LOCAL).size(225.0f).device("/dev/sdb").bootDevice(false).durable(false).build()))
            .is64Bit(true);
    }
 
@@ -1119,7 +1119,7 @@ public class EC2HardwareBuilder extends HardwareBuilder {
          .processors(ImmutableList.of(new Processor(16.0, 3.0)))
          .volumes(ImmutableList.<Volume>of(
                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
-                 new VolumeBuilder().type(LOCAL).size(400.0f).device("/dev/sdb").bootDevice(false).durable(false).build()))
+                 new VolumeBuilder().type(LOCAL).size(450.0f).device("/dev/sdb").bootDevice(false).durable(false).build()))
            .is64Bit(true);
    }
 
